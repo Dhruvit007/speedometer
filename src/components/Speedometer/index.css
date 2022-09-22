@@ -1,0 +1,61 @@
+* {
+  font-family: 'Roboto';
+}
+
+.container {
+  background-color: hsl(228, 26%, 4%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contain-container {
+  text-align: center;
+  width: 80%;
+  max-width: 700px;
+}
+@media screen and (max-width: 768px) {
+  .contain-container {
+    width: 100%;
+  }
+}
+.heading {
+  color: white;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+}
+.image {
+  width: 80%;
+  height: 35vh;
+}
+.speed-detail {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+.speed-limit {
+  color: #cbd5e1;
+  font-size: 10px;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+.btn {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 7px;
+  margin-right: 10px;
+  font-size: 10px;
+}
+.accelerate {
+  background-color: #0b69ff;
+  border: none;
+  color: #cbd5e1;
+}
+.brake {
+  border: #94a3b8 solid 1px;
+  background-color: transparent;
+  color: #94a3b8;
+}
